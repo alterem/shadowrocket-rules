@@ -1,5 +1,4 @@
 #!name=京东淘宝历史价格
-
 #!desc=京东淘宝比价 
 
 
@@ -7,7 +6,7 @@
 
 京东比价 = type=http-response,requires-body=1,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 
-淘宝比价 = type=http-request,requires-body=1,pattern=^http?:\/\/.+/amdc/mobileDispatch,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
+淘宝比价1 = type=http-request,requires-body=1,pattern=^http?:\/\/.+/amdc/mobileDispatch,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 
 淘宝比价2 = type=http-response,requires-body=1,pattern=^https?:\/\/trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 
