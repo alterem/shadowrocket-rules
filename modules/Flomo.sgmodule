@@ -1,0 +1,12 @@
+#!name=flomo
+
+#!desc=flomo
+
+
+
+
+[Script]
+flomo = type=http-response,requires-body=1,pattern=^https:\/\/flomoapp\.com\/api\/v1\/user\/me,script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/flomo.js
+
+[MITM]
+hostname = %APPEND% *.flomoapp.com,flomoapp.com
