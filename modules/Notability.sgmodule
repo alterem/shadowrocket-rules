@@ -1,0 +1,10 @@
+#!name=Notability
+#!desc=Notability——解锁订阅
+
+[Script]
+
+Notability = type=http-response,pattern=^https?:\/\/notability\.com\/(global|subscriptions),script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/notability.js
+
+
+[MITM]
+hostname = %APPEND% notability.com
