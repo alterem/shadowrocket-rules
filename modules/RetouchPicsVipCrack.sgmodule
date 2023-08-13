@@ -1,5 +1,16 @@
 #!name=醒图解锁会员
 #!desc=醒图解锁会员
+# > ✅ 醒图 - iOS 全能修图神器
+# > 
+# > ▎脚本功能：解锁会员权限 🔓
+# > 
+# >  • 去除全局广告
+# >  • 解锁智能染发
+# >  • 解锁极致美颜
+# >  • 解锁滤镜特权
+# >  • 解锁装饰特权
+# >  • 解锁高级特效
+# >  • 更多自行探索
 
 [Script]
 RetouchPicsVipCrack = type=requires-body=1,pattern=^https?:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/RetouchPicsVipCrack.js
