@@ -1,0 +1,10 @@
+#!name=Ease
+#!desc=Ease
+
+[Script]
+
+Ease_3 = type=http-response, pattern=^https?:\/\/api0\.easeprime\.com\/api\/(login\/loginByWeChatCode|memberInfo\/myInfo), requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/Guding88/Script/main/Ease.js, timeout=60, script-update-interval=0
+
+[MITM]
+
+hostname = %APPEND% api0.easeprime.com
